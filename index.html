@@ -8,99 +8,145 @@
 </head>
 <body>
     <header>
-        <div>
+        <div class="user">
             <img src="#" alt="#"><span>selfie taken when Brazil was still "alive" <br> in the world cup</span>
-            <h3>Davi Abranges</h3>
-            <p>Desenvolvedor de Software Web</p>
+            <h3 class="name">Davi Abranges</h3>
+            <p class="post">Desenvolvedor de Software Web</p>
         </div>
-        <div class="navbar">
+        <nav class="navbar">
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Portfório</li>
-                <li>Pontact</li>
+                <li>
+                    <a href="#home">Home</a> 
+                </li>
+                <li>
+                    <a href="#about">About</a> 
+                </li>
+                <li>
+                   <a href="#portfolio">Portfório</a> 
+                </li>
+                <li>
+                   <a href="#contact"> Contact</a>
+                </li>
             </ul>
-        </div>
-        <section>
+        </nav>
+    </header>
+        <section class="home" id="home">f
             <h3>Hello!</h3>
-            <h1>I'm Davi Abranges</h1>
-            <p>I live in Belo Horizonte (MG), Brazil.I'm 18 years old and have always been passionate about technology. When the opportunity to study at the biggest graduation school in Brazil arose, I couldn't pass it up. I am very dedicated and persistent, when I create a goal there are no barriers to stop me.  </p>
+            <h1>I'm 
+               <span>Davi Abranges</span> 
+            </h1>
+            <p>I live in Belo Horizonte (MG), Brazil.I'm 18 years old and have always been passionate about technology. When the opportunity to study at the biggest graduation school in Brazil arose, I couldn't pass it up. I am very dedicated and persistent, when I create a goal there are no barriers to stop me.  
+            </p>
             <a href="#about">
-                <button>About me </button>                
+                <button class="btn">
+                    "About me "
+                    <i class="fas fa-user">
+
+                    </i>
+                </button>                
             </a>
         </section>
-        <section>
-            <h1>
+        <section class="about" id="about">
+            <h1 class="heading">
                 <span>About</span>
                 me
             </h1>
             <p>Soft Skills</p>
-            <div>
-                <div>
-                    <h3>Full Name : Davi Dos Reis Abranges</h3>
-                    <h3>Age : 18 years old</h3>
-                    <h3>Post : Desenvolvedor de Software Web</h3>
-                    <h3>Languages : Portuguese/native and English/basic</h3>
+            <div class="row">
+                <div class="info">
+                    <h3>
+                        <span>Full Name :</span>  
+                        Davi Dos Reis Abranges
+                    </h3>
+                    <h3>
+                       <span>Age : </span> 
+                       18 years old
+                    </h3>
+                    <h3>
+                        <span>Post :</span> 
+                        Desenvolvedor de Software Web
+                    </h3>
+                    <h3>
+                       <span>Languages : </span> 
+                       Portuguese/native and English/basic
+                    </h3>
             </div>
 
-            <div>
-                <div>
+            <div class="counter">
+                <div class="box">
                     <span></span>
                     <h3>Clear <br> communication</h3>
                 </div>
-                <div>
+                <div class="box">
                     <span></span>
                     <h3>Conflict <br> resolution</h3>
                 </div>
-                <div>
+                <div class="box">
                     <span></span>
                     <h3>Persistence</h3>
                 </div>
-                <div>
+                <div class="box"> 
                     <span></span>
                     <h3>Team work</h3>
                 </div>
             </div>
             </div>
         </section>
-        <section>
-            <h1>My Portfolio</h1>
+        <section class="portfolio" id="portfolio">
+            <h1 class="heading">
+                My 
+                <span>Portfolio</span> 
+            </h1>
             <p>
                 Personal projects and projects proposed by trybe
                 
                 </p>
-                <div>
-                    <div>
+                <div class="box-container">
+                    <div class="box">
                         <p></p>
                         <img src="" alt="">
                     </div>
-                    <div>
+                    <div class="box">
                         <p></p>
                         <img src="" alt="">
                     </div>
-                    <div>
+                    <div class="box">
                         <p></p>
                         <img src="" alt="">
                     </div>
-                    <div>
+                    <div class="box">
                         <p></p>
                         <img src="" alt="">
                     </div>
                 </div>
         </section>
-        <section>
-            <h1>Contact me</h1>
-            <div>
-                <h3></h3>
-                <div>
-                    <h3>daviabrabranges123@gmail.com</h3>
-                    <h3>+55 31 988104708</h3>
-                    <h3>Belo Horizonte, MG - brazil</h3>
+        <section class="contact" id="contact">
+            <h1 class="heading">
+                <span>Contact </span> 
+                me
+            </h1>
+            <div class="row">
+                <div class="content">
+                <h3 class="title">contact info</h3>
+                    <div class="info">
+                        <h3>
+                            <i class="fas fa-envelope"></i>
+                            daviabrabranges123@gmail.com
+                        </h3>
+                        <h3>
+                            <i class="fas fa-phone"></i>
+                            +55 31 988104708
+                        </h3>
+                        <h3>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Belo Horizonte, MG - brazil
+                        </h3>
+                    </div>
                 </div>
             </div>
         </section>
 
 
-    </header>
+    
 </body>
 </html>
